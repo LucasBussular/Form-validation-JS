@@ -1,0 +1,45 @@
+AULA 01 ...........................................................................................................................
+
+Para garantir que um campo de formulário seja preenchido: usa-se o "required" no final do input
+Para garantir que determinado tipo de dado seja colocado em um campo: atributo "type" 
+    email: type="email"
+    senha: type="password" (vai esconder o que é digitado dentro do campo senha)
+
+Validação de senha: 
+    Para garantir que exista um mínimo de caracteres: minlength="x", onde x igual o número mínimo de caracteres
+
+RegeX: Regex (abreviação de "expressão regular") não é uma linguagem ou recurso específico do HTML. Em vez disso,
+    regex é uma sintaxe que pode ser usada em diversas linguagens de programação, incluindo JavaScript, para manipular strings 
+    e realizar operações de busca e substituição de padrões.
+
+    Em relação ao HTML, regex pode ser útil para validar a entrada de dados em um formulário HTML. Por exemplo, um campo de 
+    entrada que solicita um endereço de e-mail pode ser validado usando uma expressão regular que verifica se o formato
+    inserido pelo usuário corresponde a um endereço de e-mail válido.
+
+    Para usar regex em HTML, geralmente é necessário escrever um pouco de código JavaScript que implementa a expressão regular.
+    Isso pode ser feito dentro de uma tag <script> dentro do documento HTML, ou em um arquivo JavaScript externo incluído na página.
+
+    Site para buscar RegeX: regexlib
+
+AULA 02 ...........................................................................................................................
+
+Em uma constante JS, criar um "new Date ()" sem valor dentro, cria uma variável com a data atual
+
+input.setCustomValidity() => caso seja verdadeiro, retorna uma string vazia
+
+AULA 05 ...........................................................................................................................
+
+fetch: Em Javascript, o termo "fetch" se refere a uma função utilizada para fazer requisições de recursos (como dados em formato JSON) 
+    de um servidor web. É uma forma de realizar operações de rede e obter informações de outros sites ou serviços web.
+    Em resumo, o "fetch" é uma forma de obter informações de um servidor web e manipulá-las em um aplicativo ou página da web, 
+    permitindo a criação de interfaces dinâmicas e interativas com os usuários.
+
+setCustomValidity: O método setCustomValidity() permite definir uma mensagem de erro personalizada para quando um formulário não passar
+    nas validações. Quando uma validação falhar, a mensagem personalizada será exibida ao usuário, ao invés da mensagem padrão do navegador.
+
+AULA 06 ...........................................................................................................................
+
+Máscara: Em JavaScript e HTML, uma máscara refere-se a um formato predefinido para a entrada de dados em um campo de formulário.
+    Por exemplo, pode-se usar uma máscara para especificar que um campo de entrada de telefone deve ter um formato específico, 
+    como (DDD) XXXX-XXXX, em que DDD é o código de área e XXXX-XXXX é o número de telefone. A máscara pode ser aplicada ao campo de 
+    entrada de forma que o usuário só possa digitar números e os caracteres especiais sejam automaticamente adicionados pelo navegador.
